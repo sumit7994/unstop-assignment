@@ -8,7 +8,7 @@ export default function SidebarMenu({ showSidebar, handleShowSidebar }) {
     return (
         <div className={`sidebar d-flex flex-column gap-3 ${showSidebar && "show"}`}
         >
-            <div className='d-flex justify-content-between align-items-center'>
+            <div className='d-lg-none d-flex justify-content-between align-items-center'>
                 <p className='menu-text'>Menu</p>
                 <svg
                     onClick={() => handleShowSidebar(false)}
