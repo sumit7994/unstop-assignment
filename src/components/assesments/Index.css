@@ -102,7 +102,7 @@
 
 .new-assessmnet {
     border: 1px dashed #DADCE0;
-    min-width: 375px;
+    width: 360px;
     padding: 30px;
     background: rgba(218, 220, 224, 0.2);
     border-radius: 12px;
@@ -128,7 +128,7 @@
 .my-assessment-card {
     border: 1px solid #DADCE0;
     border-radius: 12px;
-    min-width: 375px;
+    width: 360px;
 }
 
 .my-assessment-card-body>div>p {

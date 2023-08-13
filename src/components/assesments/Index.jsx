@@ -366,7 +366,7 @@ export default function Assesments({
                     <div
                         onClick={handleShow}
                         role='button'
-                        className='new-assessmnet d-flex flex-column justify-content-center align-items-center flex-grow-1'
+                        className='new-assessmnet d-flex flex-column justify-content-center align-items-center flex-grow-1 flex-md-grow-0'
                     >
                         <svg width={70} height={71} viewBox="0 0 70 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect y="0.5" width={70} height={70} rx={35} fill="white" />
@@ -381,7 +381,7 @@ export default function Assesments({
                         </svg>
 
                         <h5>New Assessment</h5>
-                        <p>From here you can add questions of multiple types like MCQs, subjective (text or paragraph)!</p>
+                        <p style={{ maxWidth: '350px' }}>From here you can add questions of multiple types like MCQs, subjective (text or paragraph)!</p>
                     </div>
 
                     {/* Form for creating new assessment */}

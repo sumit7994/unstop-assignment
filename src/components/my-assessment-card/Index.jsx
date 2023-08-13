@@ -9,7 +9,7 @@ export default function MyAssessmentCard({
     shareTo = [{ name: "LP", id: '1' }]
 }) {
     return (
-        <div className='my-assessment-card p-3 d-flex flex-column gap-3 flex-grow-1'>
+        <div className='my-assessment-card p-3 d-flex flex-column gap-3 flex-grow-1 flex-md-grow-0'>
 
             <div className='d-flex justify-content-between'>
                 <div className='d-flex gap-2 flex-lg-column'>
