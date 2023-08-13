@@ -1,0 +1,326 @@
+.assessment-container {
+    background: white;
+    border-radius: 8px;
+}
+
+.assessment-header {
+    border-bottom: 1px solid #DDE5EA;
+}
+
+.assessment-heading {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C4980;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    margin-right: 30px;
+    border-right: 1px solid #DADCE0;
+    cursor: default;
+}
+
+.assessment-link {
+    margin: 0;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0073E6;
+    padding-top: 20px;
+    border-bottom: 3px solid #0073E6;
+    cursor: pointer;
+}
+
+.assessment-link.inactive {
+    border-bottom: 3px solid #F6F8FA;
+}
+
+.assessment-body {
+    overflow: auto;
+    transition: all 0.2s;
+}
+
+.assessment-body>h6,
+.assessment-body>div>h6 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1C4980;
+}
+
+.assessment-card-row {
+    border: 1px solid #DADCE0;
+    border-radius: 12px;
+    overflow: auto;
+}
+
+.assessment-card-row>div:not(:last-child) {
+    border-right: 1px solid #DADCE0;
+}
+
+.assessment-card {
+    padding: 20px;
+}
+
+.assessment-card>h6 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1C4980;
+}
+
+.assessment-card-sub-body-container>div:not(:last-child) {
+    border-right: 1px solid #DADCE0;
+}
+
+.assessment-card-sub-body-container>div {
+    padding: 0 20px;
+}
+
+.assessment-card-body>p,
+.assessment-card-sub-body>div>p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1C4980;
+    margin: 0;
+}
+
+.assessment-card-sub-body>div>span {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    color: #05C165;
+}
+
+.assessment-card-sub-body>p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1C4980;
+    margin: 0;
+}
+
+.new-assessmnet {
+    border: 1px dashed #DADCE0;
+    min-width: 375px;
+    padding: 30px;
+    background: rgba(218, 220, 224, 0.2);
+    border-radius: 12px;
+}
+
+.new-assessmnet>h5,
+.my-assessment-card-body>h5 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1C4980;
+}
+
+.new-assessmnet>p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #1C4980;
+    margin: 0;
+}
+
+.my-assessment-card {
+    border: 1px solid #DADCE0;
+    border-radius: 12px;
+    min-width: 375px;
+}
+
+.my-assessment-card-body>div>p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1C4980;
+    margin: 0;
+    border-right: 1px solid #8DA4BF;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.my-assessment-card-body>div>div>p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    color: #8DA4BF;
+    margin: 0;
+}
+
+.dashed-line-1 {
+    border-bottom: 1px dashed #DADCE0;
+}
+
+.my-assessment-card-footer-left>div>h6 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1C4980;
+    margin: 0;
+}
+
+.my-assessment-card-footer-left>div>p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1C4980;
+    margin: 0;
+}
+
+.my-assessment-card-footer-right>button {
+    background: none;
+    border: 1px solid #1C4980;
+    border-radius: 50px;
+    outline: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1C4980;
+    padding: 2px 5px;
+}
+
+.share-icon-container>div:not(:first-child) {
+    margin-left: -15px;
+}
+
+.share-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 33px;
+    border: 1px solid White;
+    background: #6548EE;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.share-icon:hover {
+    z-index: 10;
+}
+
+/* .modal.fade .modal-dialog {} */
+
+.modal-heading {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C4980;
+    margin: 0;
+}
+
+.new-assessment-form>div>label {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1C4980;
+}
+
+.new-assessment-form>div>input,
+.new-assessment-form>div>select {
+    border-radius: 8px;
+    border: 1px solid #DADCE0;
+    padding: 12px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1C4980;
+    outline: none;
+}
+
+.modal-footer {
+    box-shadow: 0px -4px 50px 0px #00000017;
+    border: none;
+}
+
+.modal-button {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 30px;
+    background: #0073E6;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.multi-select-box {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid #DADCE0;
+    padding: 12px;
+}
+
+.multi-select-box-input {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid #DADCE0;
+    border-top: none;
+    padding: 12px;
+    outline: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1C4980;
+}
+
+.multi-select-box>div {
+    padding: 6px 8px 6px 10px;
+    border-radius: 22px;
+    background: #DDEDFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1C4980;
+}
+
+.my-dropdown {
+    background: white;
+    position: absolute;
+    bottom: 10px;
+    z-index: 10;
+    height: 100px;
+    width: 94%;
+    overflow: auto;
+    border: 1px solid #DADCE0;
+    border-radius: 8px;
+}
+
+.my-dropdown>option {
+    padding: 4px 8px;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1C4980;
+}
+
+.my-dropdown>option:hover {
+    background: #0073E6;
+    color: white;
+}
+
+.three-bars {
+    display: none;
+}
+
+.assessmnet-buttons .active {
+    border: 1px solid #1C4980;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .three-bars {
+        display: flex;
+    }
+}

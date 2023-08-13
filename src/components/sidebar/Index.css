@@ -1,0 +1,59 @@
+.sidebar {
+    min-height: 100vh;
+    width: 140px;
+    background: white;
+    position: fixed;
+    padding: 20px;
+}
+
+.menu-text {
+    color: #1C4980;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 15px;
+}
+
+.menu-item.active {
+    border: 1px solid #0073E6;
+    border-radius: 8px;
+    padding: 15px;
+    background: rgb(0, 115, 230, 0.15)
+}
+
+.menu-text.active {
+    color: #0073E6;
+}
+
+.dashed-line {
+    border-bottom: 1px dashed #BACBD5;
+}
+
+.sidebar-button {
+    border-radius: 22px;
+    border: 1px solid #D63500;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    color: #D63500;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        position: absolute;
+        left: 0;
+        width: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .sidebar.show {
+        width: 75%;
+        padding: 20px;
+        max-width: 400px;
+    }
+}
